@@ -1,15 +1,7 @@
 /*
  * CSC 345-02 - Project #2: Multithreaded Sudoku Validator
- *
- * Mode 1 (./main 1): 11 threads
- *   - 1 thread checks all 9 rows
- *   - 1 thread checks all 9 columns
- *   - 9 threads check each 3x3 subgrid
- *
- * Mode 2 (./main 2): 27 threads
- *   - 9 threads, each checks one row
- *   - 9 threads, each checks one column
- *   - 9 threads, each checks one 3x3 subgrid
+ * Ryan Wojciechowski
+ * March 24, 2026
  */
 
 #include <stdio.h>
